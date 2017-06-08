@@ -8,7 +8,7 @@ public class JDBCconnect {
 		DriverManager.registerDriver(new oracle.jdbc.driver.OracleDriver());
 		conn = DriverManager.getConnection(
 				"jdbc:oracle:thin:@dbsvcs.cs.uno.edu:1521:orcl",
-				"hmahdi","C3dXdpsX");
+				"username","password");
 		return conn;
 	}
 	
